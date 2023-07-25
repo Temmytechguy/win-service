@@ -1,3 +1,7 @@
+#this code on line 2 can be called directly
+#.\win-service-installer.ps1 -RootDirectory "C:\path\to\your\root\directory"
+
+
 param (
     [string]$RootDirectory
 )
